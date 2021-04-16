@@ -1,0 +1,28 @@
+﻿id,name,artist_name,gender,Rank,Genre,ID_Verify,Dissonance,BPM,Key,Scale,Danceability,Pulse,List,Platform,Randomiser,Female,Minor,Slow,Moderate,Clean,Distorted
+74038,Forever to last (Dance),Atomic cat,female,50,dance,74038,0.48,120,E,major,0.99,0.024,Like,GUI,038,,,FALSE,FALSE,FALSE,TRUE
+73155,locked in,Fresh Body Shop,male,102,rock,73155,0.47,107,D,major,1.28,0.050,Like,GUI,155,,,FALSE,TRUE,FALSE,TRUE
+373229,To ride,El Paso Killers,male,25,punk,373229,0.49,97,C#,minor,1.20,0.036,Like,GUI,229,,,FALSE,TRUE,FALSE,TRUE
+14388,Let Me Go On,Sickboys and Lowmen,male,15,blues,14388,0.47,123,C,major,1.13,0.031,Like,Bin,388,,,FALSE,FALSE,FALSE,TRUE
+1232472,04 Bitterness,Roman Grau,female,106,chillout,1232472,0.41,130,C,major,1.19,0.050,Like,GUI,472,,,FALSE,FALSE,TRUE,FALSE
+469480,Fourteen days,Aislinn,female,18,folk,469480,0.39,107,D,major,1.19,0.033,Like,GUI,480,,,FALSE,TRUE,TRUE,FALSE
+347546,Apple Tree,Sean T Wright,male,6,country,347546,0.44,124,D,major,1.22,0.033,Like,GUI,546,,,FALSE,FALSE,FALSE,FALSE
+1234550,Come See My Laptop,i'm Clever Artist Name,male,61,electronic,1234550,0.47,128,D#,minor,1.25,0.060,Commute,Bin,550,,,FALSE,FALSE,FALSE,TRUE
+1221852,All Clear from the Start,The A.J. Gatz Project,male,184,indie,1221852,0.46,78,C,major,1.09,0.043,Like,GUI,852,,,TRUE,FALSE,FALSE,FALSE
+1413905,Peponi,EJAY IVAN LAC,male,51,filmscore,1413905,0.46,120,F,minor,1.27,0.048,Commute,GUI,905,,,FALSE,FALSE,FALSE,FALSE
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,3,3,1,3,2,5
+,,,,,,,,,,,,,,,,,,,,,
+id,name,artist_name,gender,Rank,Genre,ID_Verify,Dissonance,BPM,Key,Scale,Danceability,Pulse,List,Platform,Randomiser,Female,Minor,Slow,Moderate,Clean,Distorted
+1234558,Assembly Blind (Extended Mix),i'm Clever Artist Name,male,19,electronic,1234558,0.48,128,C#,minor,1.23,0.053,Like,Bin,558,,,FALSE,FALSE,FALSE,TRUE
+1070230,dont say - luigi talluto with sasha dem,Luigi Talluto,female,70,dance,1070230,0.48,128,C,major,1.09,0.044,Like,Bin,230,,,FALSE,FALSE,FALSE,TRUE
+636960,Eye Me,JoosTVD,male,126,filmscore,636960,0.45,96,C,major,1.06,0.044,Commute,Bin,960,,,FALSE,TRUE,FALSE,FALSE
+108658,F√ºnf Freunde - Perjury,F√ºnf Freunde,male,19,punk,108658,0.48,139,C,major,1.14,0.038,Like,Bin,658,,,FALSE,FALSE,FALSE,TRUE
+1254632,Ghosts,Color Out,male,193,rock,1254632,0.47,140,C,major,1.16,0.050,Like,Bin,632,,,FALSE,FALSE,FALSE,TRUE
+225621,Goodnight,Charlie Mosbrook,male,191,country,225621,0.39,107,D,major,0.97,0.022,Like,Bin,621,,,FALSE,TRUE,TRUE,FALSE
+1427882,Jakiteko,Plastic Light Factory,male,13,indie,1427882,0.48,102,A,minor,1.24,0.049,Like,Bin,882,,,FALSE,TRUE,FALSE,TRUE
+1340794,Malk and Starjam (ft. Faib) - Sweet,Starjam,female,3,chillout,1340794,0.45,140,F,minor,1.06,0.062,Commute,GUI,794,,,FALSE,FALSE,FALSE,FALSE
+261271,Misbehaved,Dazie Mae,female,96,blues,261271,0.44,99,D,major,1.26,0.046,Like,GUI,271,,,FALSE,TRUE,FALSE,FALSE
+450542,Under the Stairs,Josh Woodward,male,49,folk,450542,0.37,132,C,major,0.93,0.016,Commute,Bin,542,,,FALSE,FALSE,TRUE,FALSE
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,3,3,0,4,2,5

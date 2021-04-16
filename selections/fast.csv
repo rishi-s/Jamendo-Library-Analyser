@@ -1,0 +1,26 @@
+﻿id,name,artist_name,gender,Rank,Genre,ID_Verify,Dissonance,BPM,Key,Scale,Danceability,Pulse,List,Platform,Criterion,Randomiser
+1341173,Another Day,J.O.R.B.I,female,92,house,1341173,0.48,140,F,minor,1.13,0.036,Fast,Bin,Y,173
+81189,psalm,BeatRaider,female,148,hiphop,81189,0.40,86,C,major,1.45,0.091,Fast,Bin,N,189
+259287,Lucky numbers,Katherine,male,7,indie,259287,0.46,140,G,minor,1.14,0.046,Fast,Bin,Y,287
+47367,signals,The Verandas,male,116,indie,47367,0.47,140,C,major,1.11,0.044,Fast,Bin,Y,367
+1180386,Give Me Meaning,T3h Silent Majority,female,3,electronic,1180386,0.45,138,E,major,1.03,0.056,Fast,Bin,Y,386
+37581,Oscuridad,Dj Saryon &amp; Sory,female,7,ambient,37581,0.45,140,F,minor,1.10,0.039,Fast,Bin,Y,581
+202743,Good time bad times,The Verandas,male,22,rock,202743,0.47,137,E,major,1.18,0.040,Fast,Bin,Y,743
+277804,Billy and the clocks,Dan Falvey,male,89,folk,277804,0.39,104,D,major,1.25,0.033,Fast,Bin,N,804
+1222857,The ABC song,andy blackwood,male,188,country,1222857,0.45,104,C,major,1.29,0.069,Fast,Bin,N,857
+457946,Kinda Country,Cool Cavemen,male,17,blues,457946,0.46,140,C,major,1.02,0.030,Fast,Bin,Y,946
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+id,name,artist_name,gender,Rank,Genre,ID_Verify,Dissonance,BPM,Key,Scale,Danceability,Pulse,List,Platform,Criterion,Randomiser
+172023,It's Over (feat. Daniel Gidlund),Jonay,male,13,hiphop,172023,0.46,98,G,minor,1.41,0.016,Fast,GUI,N,023
+1424075,Pub Philosophers,Nicolas Falcon,male,93,folk,1424075,0.41,102,C,major,1.04,0.037,Fast,GUI,N,075
+130307,dteix - neWave Feat Electronic World,dteix,female,20,electronic,130307,0.46,142,F,minor,1.49,0.171,Fast,GUI,Y,307
+6496,New Pirates,Cool Cavemen,male,37,jazz,6496,0.47,140,G,minor,1.18,0.045,Fast,GUI,Y,496
+459544,Everybody Loves The Partys,Juanitos,male,177,rock,459544,0.47,139,D,major,1.28,0.037,Fast,GUI,Y,544
+1492563,Destiny,Varicourt,female,83,classical,1492563,0.39,140,D,major,2.13,0.020,Fast,GUI,Y,563
+157642,Social beings,Avastar,male,114,dance,157642,0.48,135,G#,major,1.47,0.104,Fast,GUI,Y,642
+1371801,Chickenwing Dancing,JoosTVD,male,99,latin,1371801,0.45,140,C,major,1.29,0.081,Fast,GUI,Y,801
+502930,Without You,Mezzamo,female,41,dance,502930,0.45,140,C,major,1.29,0.072,Fast,GUI,Y,930
+786940,Gone Train Blues,Freeky Cleen &amp; Dickey F,male,107,blues,786940,0.48,105,A,minor,1.52,0.077,Fast,GUI,N,940

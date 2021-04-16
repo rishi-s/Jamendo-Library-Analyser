@@ -1,0 +1,67 @@
+﻿id,name,artist_name,gender,Rank,Genre,ID_Verify,Dissonance,BPM,Key,Scale,Danceability,Pulse,List,Platform,Randomiser,Female,Minor,Slow,Moderate,Clean,Distorted
+74039,Tonight (Dance),Atomic cat,female,61,dance,74039,0.45,130,C,major,1.36,0.093,Commute,GUI,039,,,FALSE,FALSE,FALSE,FALSE
+1237057,Hello You,The.madpix.project,female,11,house,1237057,0.40,125,C,major,1.39,0.094,Commute,Bin,057,,,FALSE,FALSE,TRUE,FALSE
+455082,More Light,Conway Hambone,female,28,blues,455082,0.48,104,D,major,1.18,0.034,Commute,Bin,082,,,FALSE,TRUE,FALSE,TRUE
+1518108,The Goodbye Song,Dazie Mae,female,22,jazz,1518108,0.41,130,D,major,1.30,0.044,Commute,GUI,108,,,FALSE,FALSE,TRUE,FALSE
+306168,Swan Song (of Our Love),Stephane TV,male,103,indie,306168,0.45,104,C,major,1.14,0.056,Commute,Bin,168,,,FALSE,TRUE,FALSE,FALSE
+778179,Around In Awhile,Not From Georgia,male,7,country,778179,0.41,134,A,minor,1.15,0.060,Commute,Bin,179,,,FALSE,FALSE,TRUE,FALSE
+1475203,Breathe (Produced by Benstar),Mickey Blue,male,45,rnb,1475203,0.42,110,A,minor,1.38,0.042,Commute,GUI,203,,,FALSE,TRUE,TRUE,FALSE
+462203,Get On Board,Oneness,male,179,chillout,462203,0.45,100,B,minor,1.41,0.037,Commute,Bin,203,,,FALSE,TRUE,FALSE,FALSE
+887209,Scene 5,WE ARE FM,male,96,electronic,887209,0.45,125,D,major,1.13,0.047,Like,GUI,209,,,FALSE,FALSE,FALSE,FALSE
+1227222,Winter Love Song,VITNE,male,86,rock,1227222,0.45,100,F#,major,1.11,0.027,Commute,GUI,222,,,FALSE,TRUE,FALSE,FALSE
+373300,Ephemeral living,zero-project,male,178,ambient,373300,0.45,120,D#,minor,1.29,0.078,Commute,GUI,300,,,FALSE,FALSE,FALSE,FALSE
+78310,The Raven and the Swan,Josh Woodward,male,78,latin,78310,0.45,136,C,major,1.03,0.031,Commute,Bin,310,,,FALSE,FALSE,FALSE,FALSE
+1498355,Cat Person,Townhouse Woods,male,79,folk,1498355,0.40,141,C,major,1.17,0.039,Like,Bin,355,,,FALSE,FALSE,TRUE,FALSE
+703364,If I'm Falling,Singleton,female,115,indie,703364,0.46,135,E,major,1.01,0.029,Commute,GUI,364,,,FALSE,FALSE,FALSE,FALSE
+14379,Euros In Texas II,Sickboys and Lowmen,male,40,blues,14379,0.40,126,A,minor,1.08,0.050,Commute,Bin,379,,,FALSE,FALSE,TRUE,FALSE
+1165403,Let The Sunshine In,The Mind Orchestra,female,44,folk,1165403,0.45,97,C,major,1.25,0.050,Commute,Bin,403,,,FALSE,TRUE,FALSE,FALSE
+1280497,Every Single Day,Galaxy Hunter,female,118,house,1280497,0.47,133,C#,minor,1.12,0.036,Commute,GUI,497,,,FALSE,FALSE,FALSE,TRUE
+287509,Rational Behaviour,Heifervescent,male,187,rock,287509,0.47,85,D,major,0.99,0.037,Commute,Bin,509,,,TRUE,FALSE,FALSE,TRUE
+176543,Ordinary man,Shearer,male,1,punk,176543,0.48,120,E,major,1.29,0.042,Commute,GUI,543,,,FALSE,FALSE,FALSE,TRUE
+263619,My Life II,Sinkhole,male,129,rock,263619,0.49,109,C#,minor,1.06,0.026,Commute,GUI,619,,,FALSE,TRUE,FALSE,TRUE
+1194670,Handel Messia 19 Halleluja,Musica in Armonia,,2,classical,1194670,0.45,105,D,major,0.92,0.038,Commute,Bin,670,,,FALSE,TRUE,FALSE,FALSE
+553676,Boy,The Different,female,68,folk,553676,0.44,120,C#,minor,1.28,0.051,Commute,GUI,676,,,FALSE,FALSE,FALSE,FALSE
+120725,Johanes Gilther - Just Believe,2Inventions,male,75,dance,120725,0.48,132,G,minor,1.29,0.054,Commute,GUI,725,,,FALSE,FALSE,FALSE,TRUE
+77734,Venus,High Hopes,male,147,rock,77734,0.47,126,A,minor,1.03,0.045,Like,Bin,734,,,FALSE,FALSE,FALSE,TRUE
+830773,Bill Withus,JoosTVD,male,133,jazz,830773,0.44,101,C,major,1.26,0.058,Commute,GUI,773,,,FALSE,TRUE,FALSE,FALSE
+1093793,Love you Don't go,JekK,male,45,dance,1093793,0.44,128,D,major,1.18,0.040,Commute,Bin,793,,,FALSE,FALSE,FALSE,FALSE
+683831,The Longest Journey (feat. ChudaDoctor & Lamplighter),GroovyVoxx,male,66,electronic,683831,0.46,126,C,major,1.18,0.047,Commute,Bin,831,,,FALSE,FALSE,FALSE,FALSE
+1270855,Shame On You,Etolie Vipe,female,170,dance,1270855,0.41,128,E,major,0.98,0.048,Commute,GUI,855,,,FALSE,FALSE,TRUE,FALSE
+1134856,Asymmetric - Through the veil,Asymmetric,male,113,metal,1134856,0.47,120,G,minor,1.10,0.039,Commute,GUI,856,,,FALSE,FALSE,FALSE,TRUE
+1177888,Easy On The Radio,Michael Ellis,male,105,rock,1177888,0.46,138,A#,major,1.17,0.036,Commute,Bin,888,,,FALSE,FALSE,FALSE,FALSE
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,9,11,1,9,7,8
+,,,,,,,,,,,,,,,,,,,,,
+id,name,artist_name,gender,Rank,Genre,ID_Verify,Dissonance,BPM,Key,Scale,Danceability,Pulse,List,Platform,Randomiser,Female,Minor,Slow,Moderate,Clean,Distorted
+678635,A New Tale,Balsa Racers,male,19,rock,678635,0.44,105,A#,major,1.17,0.038,Like,GUI,635,,,FALSE,TRUE,FALSE,FALSE
+998029,Another place,Libra Makowski,female,51,ambient,998029,0.45,130,D,major,1.16,0.043,Commute,Bin,029,,,FALSE,FALSE,FALSE,FALSE
+1076593,Beach 2014,EIVISSA SALINAS feat. DJ HSERES,female,171,dance,1076593,0.44,128,C#,minor,1.45,0.093,Commute,Bin,593,,,FALSE,FALSE,FALSE,FALSE
+287503,Billy Comes Home,Heifervescent,male,10,rock,287503,0.47,120,D,major,1.14,0.050,Commute,GUI,503,,,FALSE,FALSE,FALSE,TRUE
+826473,Bop 138,Franck Camu,male,102,blues,826473,0.48,138,E,major,1.16,0.043,Commute,GUI,473,,,FALSE,FALSE,FALSE,TRUE
+1254633,By Your Side,Color Out,male,52,rock,1254633,0.46,133,A#,major,1.06,0.045,Commute,GUI,633,,,FALSE,FALSE,FALSE,FALSE
+347590,Country Life,Sean T Wright,male,117,folk,347590,0.45,126,C,major,1.07,0.036,Commute,GUI,590,,,FALSE,FALSE,FALSE,FALSE
+14385,Drove Too Long,Sickboys and Lowmen,male,26,blues,14385,0.38,135,A,minor,1.23,0.033,Commute,GUI,385,,,FALSE,FALSE,TRUE,FALSE
+1221854,Falling,The A.J. Gatz Project,male,28,latin,1221854,0.38,104,C#,minor,1.09,0.040,Commute,GUI,854,,,FALSE,TRUE,TRUE,FALSE
+1194717,Handel Messia 13 He trusted in God,Musica in Armonia,male,97,classical,1194717,0.42,120,G#,major,1.22,0.030,Commute,GUI,717,,,FALSE,FALSE,TRUE,FALSE
+1191150,High on your love,Kingston Blues,male,29,reggae,1191150,0.45,135,G,minor,1.45,0.076,Commute,Bin,150,,,FALSE,FALSE,FALSE,FALSE
+1351134,Highway 84,Not From Georgia,male,187,country,1351134,0.46,107,D,major,1.26,0.045,Commute,GUI,134,,,FALSE,TRUE,FALSE,FALSE
+1230671,Horse Tamer,Jon Maurer,male,132,folk,1230671,0.44,100,E,major,1.39,0.034,Commute,Bin,671,,,FALSE,TRUE,FALSE,FALSE
+84030,I Wanna Be,Bessonn&amp;sa,female,14,house,84030,0.48,120,D,major,1.24,0.058,Commute,Bin,030,,,FALSE,FALSE,FALSE,TRUE
+1280491,Kiss On My Lips,Galaxy Hunter,female,129,house,1280491,0.47,133,G,minor,1.27,0.036,Commute,GUI,491,,,FALSE,FALSE,FALSE,TRUE
+661634,Left,JoosTVD,male,116,jazz,661634,0.38,121,A,minor,1.02,0.031,Commute,Bin,634,,,FALSE,FALSE,TRUE,FALSE
+347260,MEA_03_Funky Time,FrenchLAB (French Laboratory Of),female,35,electronic,347260,0.44,123,F,minor,1.17,0.048,Commute,GUI,260,,,FALSE,FALSE,FALSE,FALSE
+1431768,Meanwhile,Roller Genoa,female,10,indie,1431768,0.46,132,D,major,1.25,0.057,Commute,GUI,768,,,FALSE,FALSE,FALSE,FALSE
+6610,My Style,Over All Brothers,male,71,dance,6610,0.47,120,D,major,1.38,0.098,Commute,GUI,610,,,FALSE,FALSE,FALSE,TRUE
+1136142,No Ska Today,Skabrot,male,36,punk,1136142,0.45,96,D,major,1.42,0.052,Commute,Bin,142,,,FALSE,TRUE,FALSE,FALSE
+1356532,She Doesnt Know What She Wants,Marco Buono,male,101,rock,1356532,0.44,110,E,major,1.11,0.041,Commute,Bin,532,,,FALSE,TRUE,FALSE,FALSE
+1111314,Sky Lantern,Non Camera,male,78,indie,1111314,0.27,86,E,major,1.42,0.026,Commute,Bin,314,,,TRUE,FALSE,TRUE,FALSE
+1180402,Somebody I Could Be,T3h Silent Majority,female,59,electronic,1180402,0.47,128,C#,minor,1.22,0.121,Commute,GUI,402,,,FALSE,FALSE,FALSE,TRUE
+1093608,Strictly Luxury,Lilly Wolf,female,142,dance,1093608,0.46,128,G,minor,1.25,0.053,Commute,Bin,608,,,FALSE,FALSE,FALSE,FALSE
+301971,Sugar On My Tongue,Josh Woodward,male,59,folk,301971,0.40,133,E,major,0.95,0.025,Commute,GUI,971,,,FALSE,FALSE,TRUE,FALSE
+319978,The Soundtrack Of Our Summer,The League,male,2,rock,319978,0.47,132,A,minor,1.11,0.052,Commute,Bin,978,,,FALSE,FALSE,FALSE,TRUE
+260843,Upside Down Inside Her Head,Dazie Mae,female,27,jazz,260843,0.46,108,D,major,1.12,0.045,Commute,Bin,843,,,FALSE,TRUE,FALSE,FALSE
+378604,We are Young Remained,Young Remained,male,43,metal,378604,0.48,130,A,minor,1.09,0.047,Commute,Bin,604,,,FALSE,FALSE,FALSE,TRUE
+43687,What's Up?,St Adam,male,33,chillout,43687,0.46,103,B,minor,1.21,0.046,Like,Bin,687,,,FALSE,TRUE,FALSE,FALSE
+1413903,With you,EJAY IVAN LAC,male,137,dance,1413903,0.46,124,C,major,1.10,0.027,Commute,Bin,903,,,FALSE,FALSE,FALSE,FALSE
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,9,12,1,8,6,8
