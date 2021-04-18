@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 46.0, 85.0, 1472.0, 961.0 ],
+		"rect" : [ 46.0, 133.0, 1840.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 580.5, 81.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "r setLength"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
@@ -122,7 +135,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 570.0, 135.0, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "5"
+					"text" : "10"
 				}
 
 			}
@@ -261,7 +274,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 792.875, 335.0, 66.0, 22.0 ],
 					"style" : "",
-					"text" : "1 2 3 4 5"
+					"text" : "1 2 4 5 6"
 				}
 
 			}
@@ -291,7 +304,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 179.9375, 569.0, 280.5, 22.0 ],
 					"style" : "",
-					"text" : "Charlie Mosbrook",
+					"text" : "J.O.R.B.I",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -309,7 +322,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 179.9375, 545.0, 280.5, 22.0 ],
 					"style" : "",
-					"text" : "Goodnight",
+					"text" : "Dancing of the Night (Remaster)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -327,7 +340,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 184.4375, 499.5, 278.25, 22.0 ],
 					"style" : "",
-					"text" : "i'm Clever Artist Name",
+					"text" : "Abrids",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -345,7 +358,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 184.4375, 475.5, 278.25, 22.0 ],
 					"style" : "",
-					"text" : "Assembly Blind (Extended Mix)",
+					"text" : "special-disease",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -363,7 +376,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 182.1875, 427.0, 280.5, 22.0 ],
 					"style" : "",
-					"text" : "Josh Woodward",
+					"text" : "Demo Delgado",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -381,7 +394,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 182.1875, 403.0, 280.5, 22.0 ],
 					"style" : "",
-					"text" : "Under the Stairs",
+					"text" : "Shake That feat. Doxamillion & Trooth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -448,7 +461,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 792.875, 485.0, 117.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 239.0, 117.0, 361.0 ],
+					"presentation_rect" : [ 45.0, 240.0, 105.0, 360.0 ],
 					"style" : "",
 					"text" : "KEEP",
 					"texton" : "Remove"
@@ -509,7 +522,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 46.0, 109.0, 1493.0, 937.0 ],
+						"rect" : [ 46.0, 133.0, 1840.0, 913.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -536,6 +549,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -832,7 +846,7 @@
 									"clipheight" : 59.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "Goodnight.mp3",
+												"filename" : "Dancing_of_the_Night.mp3",
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
@@ -896,7 +910,7 @@
 									"clipheight" : 59.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "Assembly_Blind_Exte.mp3",
+												"filename" : "special-disease.mp3",
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
@@ -960,7 +974,7 @@
 									"clipheight" : 59.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "Under_the_Stairs.mp3",
+												"filename" : "Shake_That_feat_Dox.mp3",
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
@@ -1105,7 +1119,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 12.0, 227.0, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "929.33551"
+									"text" : "44.818039"
 								}
 
 							}
@@ -1341,7 +1355,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 34.0, 127.0, 1484.0, 919.0 ],
+										"rect" : [ 46.0, 133.0, 1840.0, 913.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1368,6 +1382,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-47",
@@ -1542,7 +1557,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 285.0, 435.0, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "10"
+													"text" : "20"
 												}
 
 											}
@@ -1737,7 +1752,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 825.0, 236.0, 44.0, 35.0 ],
 													"style" : "",
-													"text" : "929.33551"
+													"text" : "44.818039"
 												}
 
 											}
@@ -1863,7 +1878,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 622.333374, 258.0, 86.0, 22.0 ],
 													"style" : "",
-													"text" : "remove%30"
+													"text" : "remove%0"
 												}
 
 											}
@@ -1989,14 +2004,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-17",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 401.166626, 648.0, 71.0, 35.0 ],
+													"patching_rect" : [ 401.166626, 648.0, 71.0, 49.0 ],
 													"style" : "",
-													"text" : "Goodnight.mp3"
+													"text" : "Dancing_of_the_Night.mp3"
 												}
 
 											}
@@ -2052,7 +2067,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 297.499969, 766.0, 253.0, 22.0 ],
 													"style" : "",
-													"text" : "append%Goodnight.mp3"
+													"text" : "append%Dancing_of_the_Night.mp3"
 												}
 
 											}
@@ -2545,7 +2560,7 @@
 									"clipheight" : 59.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "Misbehaved.mp3",
+												"filename" : "Cooking_With_Attitud.mp3",
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
@@ -2585,7 +2600,7 @@
 									"clipheight" : 59.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "dont_say_-_luigi_tal.mp3",
+												"filename" : "Bionic.mp3",
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
@@ -3202,10 +3217,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 320.0, 166.0, 138.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.875, 180.0, 317.375, 43.0 ],
+					"presentation_rect" : [ 161.5, 180.0, 317.375, 43.0 ],
 					"style" : "",
 					"text" : "Continue Task",
-					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Pause Task",
 					"usebgoncolor" : 1
 				}
@@ -3329,7 +3344,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 187.0, 673.0, 225.0, 35.0 ],
 									"style" : "",
-									"text" : "49 22 Horse_Tamer.mp3 0 924.05011 5.2854"
+									"text" : "61 11 Lost_And_Blue.mp3 0 44.818039 0."
 								}
 
 							}
@@ -3452,7 +3467,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1495.25, 264.0, 61.0, 35.0 ],
 									"style" : "",
-									"text" : "929.33551"
+									"text" : "44.818039"
 								}
 
 							}
@@ -3671,14 +3686,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-17",
-									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 350.0, 419.0, 26.0, 62.0 ],
 									"style" : "",
-									"text" : "5.2854"
+									"text" : "0."
 								}
 
 							}
@@ -3718,7 +3732,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.0, 50.0, 35.0 ],
 									"style" : "",
-									"text" : "929.33551"
+									"text" : "44.818039"
 								}
 
 							}
@@ -3732,7 +3746,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 443.5, 327.0, 50.0, 35.0 ],
 									"style" : "",
-									"text" : "929.33551"
+									"text" : "44.818039"
 								}
 
 							}
@@ -3823,7 +3837,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.0, 327.0, 156.0, 22.0 ],
 									"style" : "",
-									"text" : "dont_say_-_luigi_tal.mp3"
+									"text" : "Bionic.mp3"
 								}
 
 							}
@@ -3863,7 +3877,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 216.0, 559.0, 140.0, 49.0 ],
 									"style" : "",
-									"text" : "28 With_you.mp3 0 924.05011 5.2854"
+									"text" : "12 Recall.mp3 0 44.818039 0."
 								}
 
 							}
@@ -4423,7 +4437,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 184.4375, 275.0, 278.25, 22.0 ],
 					"style" : "",
-					"text" : "Luigi Talluto",
+					"text" : "Heifervescent",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4467,7 +4481,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 182.1875, 350.0, 280.5, 22.0 ],
 					"style" : "",
-					"text" : "Dazie Mae",
+					"text" : "Not From Georgia",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4485,7 +4499,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 182.1875, 326.0, 281.0, 22.0 ],
 					"style" : "",
-					"text" : "Misbehaved",
+					"text" : "Cooking With Attitude",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4532,7 +4546,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 46.0, 109.0, 1493.0, 937.0 ],
+						"rect" : [ 46.0, 133.0, 1840.0, 913.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4559,7 +4573,85 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1486.0, 600.0, 73.0, 22.0 ],
+									"style" : "",
+									"text" : "s setLength"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1530.0, 476.0, 29.5, 22.0 ],
+									"style" : "",
+									"text" : "15"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1486.0, 476.0, 29.5, 22.0 ],
+									"style" : "",
+									"text" : "10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1451.25, 476.0, 29.5, 22.0 ],
+									"style" : "",
+									"text" : "8"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1411.0, 476.0, 29.5, 22.0 ],
+									"style" : "",
+									"text" : "5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 1455.0, 435.0, 78.0, 22.0 ],
+									"style" : "",
+									"text" : "route 2 3 4 5"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-63",
 									"maxclass" : "newobj",
@@ -4642,7 +4734,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1180.75, 559.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "read Task2Artists"
+									"text" : "read Task4Artists"
 								}
 
 							}
@@ -4668,7 +4760,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1000.75, 559.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "read Task2Titles"
+									"text" : "read Task4Titles"
 								}
 
 							}
@@ -4694,7 +4786,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 805.75, 559.0, 105.0, 22.0 ],
 									"style" : "",
-									"text" : "read Task2Tracks"
+									"text" : "read Task4Tracks"
 								}
 
 							}
@@ -4732,7 +4824,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1000.75, 480.0, 105.0, 22.0 ],
 									"style" : "",
-									"text" : "read%Task2Titles"
+									"text" : "read%Task4Titles"
 								}
 
 							}
@@ -4758,7 +4850,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 805.75, 480.0, 121.0, 22.0 ],
 									"style" : "",
-									"text" : "read%Task2Tracks"
+									"text" : "read%Task4Tracks"
 								}
 
 							}
@@ -4797,7 +4889,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1180.75, 480.0, 166.0, 22.0 ],
 									"style" : "",
-									"text" : "read%Task2Artists"
+									"text" : "read%Task4Artists"
 								}
 
 							}
@@ -4934,9 +5026,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.0, 448.5, 122.5, 22.0 ],
+									"patching_rect" : [ 377.0, 448.5, 177.0, 22.0 ],
 									"style" : "",
-									"text" : "set Charlie Mosbrook"
+									"text" : "set J.O.R.B.I"
 								}
 
 							}
@@ -4947,9 +5039,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 534.0, 219.5, 112.0, 22.0 ],
+									"patching_rect" : [ 534.0, 219.5, 166.0, 22.0 ],
 									"style" : "",
-									"text" : "\"Charlie Mosbrook\""
+									"text" : "J.O.R.B.I"
 								}
 
 							}
@@ -5029,9 +5121,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 405.5, 324.0, 172.0, 22.0 ],
+									"patching_rect" : [ 405.5, 324.0, 192.0, 22.0 ],
 									"style" : "",
-									"text" : "\"set%Charlie Mosbrook\""
+									"text" : "set%J.O.R.B.I"
 								}
 
 							}
@@ -5100,26 +5192,28 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-158",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 448.5, 182.5, 22.0 ],
+									"patching_rect" : [ 98.0, 448.5, 182.5, 35.0 ],
 									"style" : "",
-									"text" : "set Goodnight"
+									"text" : "set Dancing of the Night (Remaster)"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-155",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 219.5, 170.0, 22.0 ],
+									"patching_rect" : [ 255.0, 219.5, 170.0, 35.0 ],
 									"style" : "",
-									"text" : "Goodnight"
+									"text" : "\"Dancing of the Night (Remaster)\""
 								}
 
 							}
@@ -5195,13 +5289,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-121",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.5, 324.0, 198.0, 22.0 ],
+									"patching_rect" : [ 126.5, 324.0, 198.0, 35.0 ],
 									"style" : "",
-									"text" : "set%Goodnight"
+									"text" : "\"set%Dancing of the Night (Remaster)\""
 								}
 
 							}
@@ -5396,8 +5491,43 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-19", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-19", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-19", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -5450,6 +5580,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 2 ],
+									"order" : 1,
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
 									"order" : 0,
 									"source" : [ "obj-27", 0 ]
 								}
@@ -5458,14 +5596,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-23", 2 ],
-									"order" : 1,
-									"source" : [ "obj-27", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 2 ],
 									"order" : 2,
 									"source" : [ "obj-27", 0 ]
 								}
@@ -5473,9 +5603,24 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
+									"destination" : [ "obj-25", 2 ],
 									"order" : 3,
 									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"order" : 4,
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -5528,6 +5673,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-121", 1 ],
 									"order" : 0,
 									"source" : [ "obj-34", 0 ]
@@ -5555,6 +5707,13 @@
 									"destination" : [ "obj-47", 0 ],
 									"order" : 1,
 									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-36", 0 ]
 								}
 
 							}
@@ -5811,7 +5970,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 184.4375, 251.0, 278.25, 22.0 ],
 					"style" : "",
-					"text" : "dont say - luigi talluto with sasha dem",
+					"text" : "Bionic",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5862,13 +6021,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-92",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 218.0, 419.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "27.83"
+									"text" : "8.652542"
 								}
 
 							}
@@ -6258,7 +6418,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1123.0, 212.0, 30.0, 22.0 ],
 					"style" : "",
-					"text" : "5"
+					"text" : "6"
 				}
 
 			}
@@ -6271,7 +6431,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1078.0, 212.0, 30.0, 22.0 ],
 					"style" : "",
-					"text" : "4"
+					"text" : "5"
 				}
 
 			}
@@ -6284,7 +6444,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1033.0, 212.0, 30.0, 22.0 ],
 					"style" : "",
-					"text" : "3"
+					"text" : "4"
 				}
 
 			}
@@ -6446,7 +6606,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 940.375, 483.0, 118.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.0, 243.0, 118.0, 361.0 ],
+					"presentation_rect" : [ 495.0, 239.0, 105.0, 365.0 ],
 					"style" : "",
 					"text" : "REMOVE",
 					"texton" : "Remove"
@@ -6807,6 +6967,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 1 ],
+					"order" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"order" : 1,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"order" : 1,
 					"source" : [ "obj-38", 0 ]
@@ -7127,56 +7303,56 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Task2Titles.txt",
+				"name" : "Task4Titles.txt",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Task2Artists.txt",
+				"name" : "Task4Artists.txt",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dont_say_-_luigi_tal.mp3",
+				"name" : "Bionic.mp3",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Misbehaved.mp3",
+				"name" : "Cooking_With_Attitud.mp3",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Task2Tracks.txt",
+				"name" : "Task4Tracks.txt",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Under_the_Stairs.mp3",
+				"name" : "Shake_That_feat_Dox.mp3",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Assembly_Blind_Exte.mp3",
+				"name" : "special-disease.mp3",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Goodnight.mp3",
+				"name" : "Dancing_of_the_Night.mp3",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "Mp3 ",
