@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 103.0, 646.0, 638.0 ],
+		"rect" : [ 37.0, 79.0, 646.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1054,7 +1054,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 103.0, 646.0, 638.0 ],
+						"rect" : [ 37.0, 103.0, 646.0, 638.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1081,8 +1081,34 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-74",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 199.0, 348.0, 68.0, 22.0 ],
+									"style" : "",
+									"text" : "remove 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-77",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 65.25, 388.0, 75.25, 49.0 ],
+									"style" : "",
+									"text" : "loadmess append repeat.mp3"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-72",
 									"maxclass" : "newobj",
@@ -1113,23 +1139,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 462.0, 50.0, 22.0 ],
+									"patching_rect" : [ 8.0, 462.0, 50.0, 22.0 ],
 									"style" : "",
 									"text" : "0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-70",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 44.75, 382.0, 100.0, 49.0 ],
-									"style" : "",
-									"text" : "loadmess append repeat.mp3"
 								}
 
 							}
@@ -1148,469 +1160,9 @@
 							}
 , 							{
 								"box" : 								{
-									"clipheight" : 20.0,
+									"clipheight" : 24.0,
 									"data" : 									{
-										"clips" : [ 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
-, 											{
-												"filename" : "repeat.mp3",
-												"filekind" : "audiofile",
-												"loop" : 0,
-												"content_state" : 												{
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchcorrection" : [ 0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"play" : [ 0 ],
-													"timestretch" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"basictuning" : [ 440 ]
-												}
-
-											}
- ]
+										"clips" : [  ]
 									}
 ,
 									"id" : "obj-67",
@@ -2498,7 +2050,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 37.0, 127.0, 1849.0, 919.0 ],
+										"rect" : [ 34.0, 82.0, 700.0, 953.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3071,7 +2623,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 622.333374, 258.0, 86.0, 22.0 ],
 													"style" : "",
-													"text" : "remove%8"
+													"text" : "remove%11"
 												}
 
 											}
@@ -3189,7 +2741,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 401.166626, 648.0, 53.0, 49.0 ],
+													"patching_rect" : [ 401.166626, 639.0, 53.0, 62.0 ],
 													"style" : "",
 													"text" : "Everybody_Loves_The_.mp3"
 												}
@@ -4430,14 +3982,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-67", 0 ],
-									"source" : [ "obj-70", 0 ]
+									"source" : [ "obj-73", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-67", 0 ],
-									"source" : [ "obj-73", 0 ]
+									"source" : [ "obj-74", 0 ]
 								}
 
 							}
@@ -4452,6 +4004,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-10", 1 ],
 									"source" : [ "obj-76", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-67", 0 ],
+									"source" : [ "obj-77", 0 ]
 								}
 
 							}
@@ -4568,7 +4127,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 39.0, 127.0, 1847.0, 919.0 ],
+						"rect" : [ 34.0, 151.0, 1852.0, 895.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4668,7 +4227,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 758.0, 1065.0, 399.0, 35.0 ],
 									"style" : "",
-									"text" : "write \"Macintosh HD:/Users/rishi/Documents/AuditoryBrowserStudy/StudyCode/Task2.csv\""
+									"text" : "write \"Macintosh HD:/Users/rishi/Documents/AuditoryBrowserStudy/StudyCode/Task3.csv\""
 								}
 
 							}
@@ -8514,7 +8073,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 110.0, 123.0, 1776.0, 923.0 ],
+						"rect" : [ 34.0, 151.0, 644.0, 652.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8716,7 +8275,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1244.75, 479.0, 166.0, 22.0 ],
 									"style" : "",
-									"text" : "Task3.csv"
+									"text" : "Task4.csv"
 								}
 
 							}
@@ -8893,7 +8452,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1071.75, 562.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "read Task3Artists"
+									"text" : "read Task4Artists"
 								}
 
 							}
@@ -8919,7 +8478,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 891.75, 562.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "read Task3Titles"
+									"text" : "read Task4Titles"
 								}
 
 							}
@@ -8945,7 +8504,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 696.75, 562.0, 105.0, 22.0 ],
 									"style" : "",
-									"text" : "read Task3Tracks"
+									"text" : "read Task4Tracks"
 								}
 
 							}
@@ -8983,7 +8542,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 891.75, 483.0, 105.0, 22.0 ],
 									"style" : "",
-									"text" : "read%Task3Titles"
+									"text" : "read%Task4Titles"
 								}
 
 							}
@@ -9009,7 +8568,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 696.75, 483.0, 121.0, 22.0 ],
 									"style" : "",
-									"text" : "read%Task3Tracks"
+									"text" : "read%Task4Tracks"
 								}
 
 							}
@@ -9048,7 +8607,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1071.75, 483.0, 166.0, 22.0 ],
 									"style" : "",
-									"text" : "read%Task3Artists"
+									"text" : "read%Task4Artists"
 								}
 
 							}
@@ -10672,7 +10231,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 218.0, 419.0, 50.0, 35.0 ],
 									"style" : "",
-									"text" : "10.060399"
+									"text" : "14.431965"
 								}
 
 							}
@@ -12440,52 +11999,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Its_Over_feat_Dan.mp3",
-				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
-				"patcherrelativepath" : "./tracks",
-				"type" : "Mp3 ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pub_Philosophers.mp3",
-				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
-				"patcherrelativepath" : "./tracks",
-				"type" : "Mp3 ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Task1Tracks.txt",
 				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
 				"patcherrelativepath" : "./tracks",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dteix_-_neWave_Feat_.mp3",
-				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
-				"patcherrelativepath" : "./tracks",
-				"type" : "Mp3 ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "New_Pirates.mp3",
-				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
-				"patcherrelativepath" : "./tracks",
-				"type" : "Mp3 ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Everybody_Loves_The_.mp3",
-				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
-				"patcherrelativepath" : "./tracks",
-				"type" : "Mp3 ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "repeat.mp3",
-				"bootpath" : "~/Documents/AuditoryBrowserStudy/StudyCode/tracks",
-				"patcherrelativepath" : "./tracks",
-				"type" : "Mp3 ",
 				"implicit" : 1
 			}
  ],
