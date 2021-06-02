@@ -5,15 +5,11 @@
 
 # ### Helper variables and functions
 
-# In[664]:
+# In[1]:
 
 
-from csv import writer
-from csv import reader
-import pandas as pd
 import requests
 import json
-import csv
 import urllib
 import pprint
 
@@ -23,7 +19,7 @@ chromas = ['A', 'Bb', 'B', 'C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab']
 all_chords = [''.join(x) for x in itertools.product(chromas, chord_types)]
 
 
-# In[3]:
+# In[2]:
 
 
 import IPython.display
@@ -37,7 +33,7 @@ def jamendo_player(jamendo_id):
 # 
 # https://docs.atlas.mongodb.com/driver-connection/
 
-# In[4]:
+# In[3]:
 
 
 import pymongo
@@ -49,7 +45,7 @@ collection = db.descriptors
 
 # ### Style Arrays
 
-# In[623]:
+# In[ ]:
 
 
 allstyles=[]
@@ -71,11 +67,14 @@ for n in range(len(styles)):
 
 # ### Query tracks
 
-# In[630]:
+# In[ ]:
 
+
+from csv import writer
+from csv import reader
 
 header_fields = []
-
+print(header_fields)
 
 # Loop through and query each listed style
 # Remove the query header and store the result as JSON
@@ -86,29 +85,30 @@ for x in range(19):
     data.pop("headers")
     
     # open the file in the write mode
-    with open(style_labels[x]+".csv", 'w') as selections:
+    with open(style_labels[x]+".csv", 'w') as genre:
         # create the csv writer
-        writer = csv.writer(selections)
+        line_writer = writer(genre)
 
         # Create the header fields
         # For each field find and write the dict key to a list
-        for column in data['results'][x]:
-            # In the case of the musicinfo field, write the sub-fields
-            if column=="musicinfo":
-                for subcolumn in data['results'][x]['musicinfo']:
-                    if subcolumn !="tags":
-                        header_fields.append(subcolumn)
-                    else:
-                        for subsubcolumn in data['results'][x]['musicinfo']['tags']:
-                            header_fields.append(subsubcolumn)    
-            # Otherwise, just write the main field
-            else:                    
-                header_fields.append(column)
-        # Write two identifier fields
-        header_fields.append('Rank')
-        header_fields.append('Genre')
+        if x == 0:
+            for column in data['results'][x]:
+                # In the case of the musicinfo field, write the sub-fields
+                if column=="musicinfo":
+                    for subcolumn in data['results'][x]['musicinfo']:
+                        if subcolumn !="tags":
+                            header_fields.append(subcolumn)
+                        else:
+                            for subsubcolumn in data['results'][x]['musicinfo']['tags']:
+                                header_fields.append(subsubcolumn)    
+                # Otherwise, just write the main field
+                else:                    
+                    header_fields.append(column)
+            # Write two identifier fields
+            header_fields.append('Rank')
+            header_fields.append('Genre')
         # Assign the field names to the column header    
-        writer.writerow(header_fields)
+        line_writer.writerow(header_fields)
 
         # Write every record from the style to the dataframe 
         for y in range(len(data['results'])):
@@ -133,13 +133,20 @@ for x in range(19):
             track_data.append(y)
             track_data.append(style_labels[x])
             # Assign the field names to the column header                                
-            writer.writerow(track_data)
+            line_writer.writerow(track_data)
         print(styles[x])
+        genre.close()
+
+
+# In[ ]:
+
+
+
 
 
 # ### Create track lists
 
-# In[508]:
+# In[ ]:
 
 
 print(track_data)
@@ -148,7 +155,7 @@ print(header_fields)
 
 # ### Query by musical parameters
 
-# In[634]:
+# In[11]:
 
 
 collection.count_documents({
@@ -197,27 +204,40 @@ collection.count_documents({
 
 # ### Return specified tracks with musical parameter values
 
-# In[670]:
+# In[ ]:
 
 
-for style in range(len(styles)):
+from csv import writer
+from csv import reader
 
+header = []
+print(header)
+header = header_fields
+print(header)
+header.append('ID_Verify')
+header.append('Dissonance')
+header.append('BPM')
+header.append('Key')
+header.append('Scale')
+header.append('Danceability')
+header.append('Pulse')
+
+track_ids=[]
+
+# Create a new .csv file to append selections
+with open('selections.csv','w', newline='\n') as selections:
+    # Create .csv writer instance
+    line_writer=writer(selections)
+    line_writer.writerow(header)
     
-    # Create a new .csv file to append selections
-    with open('selections.csv','w', newline='\n') as selections:
-        # Create .csv writer instance
-        line_writer=csv.writer(selections)
-
-    # Open each style .csv file to read tracks
-    with open(style_labels[style]+".csv",'r') as genre_list:
-        line_reader = csv.reader(genre_list)
-
-        # Search the collection
+    # Open each .csv file
+    for n in range(len(styles)):
+        # Search the Jamendo database
         for piece in collection.find(
             {
             "$and":[
                 # Make sure the track ID is contained in the style list
-                {'_id':{"$in": styles[style]}},
+                {'_id':{"$in": styles[n]}},
                 # Make sure the track key qualifies
                 {"$or":[
                     # Either as one of the permitted major key conditions ...
@@ -311,32 +331,89 @@ for style in range(len(styles)):
             pulse = str(piece)[markers[8]+26:markers[4]-4]
             print(track,dissonance,tempo,key,scale,groove,pulse)
 
-            # Find the record in the source files
-            if track in line:
-                # Append the additional field data
-                line.append(f'{track}')
-                line.append(f'{dissonance}')
-                line.append(f'{tempo}')
-                line.append(f'{key}')
-                line.append(f'{scale}')
-                line.append(f'{groove}')
-                line.append(f'{pulse}')
-                # Write the file to a new line
-                line_writer.writerow(line)
+            with open(style_labels[n]+".csv",'r') as songs:
+                # Create .csv reader instance
+                line_reader=reader(songs)
+                # Read each line of the .csv
+                for line in line_reader:
+                    # Find the record in the source files
+                    if track in line:
+                        track_ids.append(track)
+                        # Append the additional field data
+                        line.append(f'{track}')
+                        line.append(f'{dissonance}')
+                        line.append(f'{tempo}')
+                        line.append(f'{key}')
+                        line.append(f'{scale}')
+                        line.append(f'{groove}')
+                        line.append(f'{pulse}')
+                        # Write the file to a new line
+                        line_writer.writerow(line)
+                songs.close()
+    selections.close()
 
 
-# ### Download MP3 Files
-
-# In[637]:
-
-
-mp3_reader = []
-mp3_reader = pd.read_csv("selections.csv",usecols=[14])
-print(mp3_reader)
-
+# ### Dowload selected tracks
 
 # In[ ]:
 
 
+import pandas
+shortlist = pandas.read_csv('selections.csv')
+print(len(shortlist))
 
+for z in range(len(shortlist)):
+    # check download URL
+    print(shortlist.audiodownload[z])
+    # check track name
+    print(shortlist.name[z])
+    # load audio file from URL
+    audio = requests.get(shortlist.audiodownload[z])
+    # comp filename with underscore inserted for blankspace 
+    filename=shortlist.name[z][:20].replace(" ","_").replace(".","").replace("(","").replace(")","").replace("'","") + ".mp3"
+    # write the audio file to disk
+    with open("./tracks/" + filename,'wb') as mp3_file:
+        mp3_file.write(audio.content)
+    # confirm download and progress
+    print("Download completed!")
+    print(z)
+
+
+# ### Create voiceover announcements for each track
+
+# In[ ]:
+
+
+from os import system
+for example in range(len(shortlist)):
+    # compile the artist name, without punctuation
+    artist = shortlist.artist_name[example].replace(" ","_").replace(".","").replace("(","").replace(")","").replace("'","").replace(":","").replace("&amp;","and").replace("&quot;","").replace("&"," and ").replace("&#039;","")
+    # compile the track name, without punctuation
+    title = shortlist.name[example].replace(" ","_").replace(".","").replace("(","").replace(")","").replace("'","").replace(":","").replace("&amp;","and").replace("&quot;","").replace("&","and").replace("&#039;","")
+    # compile the voiceover announcement
+    announcement = artist + ' – ' + title
+    # comp filename with underscore inserted for blankspace 
+    filename=shortlist.name[example][:20].replace(" ","_").replace(".","").replace("(","").replace(")","").replace("'","") + "_VXO"
+    # save the voiceover announcement with track name
+    settings = 'say -v Serena -r 135 -o ' "./announcements/" + filename + '.wav --file-format=WAVE --data-format=I16@44100 ' + announcement
+    print(settings)
+    system(settings)
+
+
+# ### Create new playlist file based on folder content
+
+# In[3]:
+
+
+import os
+from csv import writer
+
+# Create a new .csv file to append selections
+with open('./testing/Task3.csv','w', newline='\n') as choices:
+    # Create .csv writer instance
+    choiceInfo=writer(choices)
+    for file in os.scandir('./testing/Task3'):
+        if file.path.endswith(".mp3") and file.is_file():
+            choiceInfo.writerow([file.name])
+choices.close()
 
